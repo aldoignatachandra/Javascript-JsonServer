@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "What Is React ?",
+      "body": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable and easier to debug. Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.",
+      "likes": 30
+    },
+    {
+      "id": 2,
+      "title": "Whats Is Vue ?",
+      "body": "Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.",
+      "likes": 10
+    },
+    {
+      "id": 3,
+      "title": "What Is Svelte ?",
+      "body": "Svelte is a free and open-source front end JavaScript framework created by Rich Harris and maintained by Harris and other Svelte core team members. Svelte applications do not include framework references. Instead, building a Svelte application generates code to manipulate the DOM, which may reduce the size of transferred files as well as give better client startup and run-time performance. Svelte has its own compiler for converting app code into client-side JavaScript at build time. It is written in TypeScript. The Svelte source code is licensed under MIT License and hosted on GitHub.",
+      "likes": 25
+    },
+    {
+      "title": "What Is Angular ?",
+      "body": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your apps.\n\nThe architecture of an Angular application relies on certain fundamental concepts. The basic building blocks of the Angular framework are Angular components that are organized into NgModules. NgModules collect related code into functional sets; an Angular app is defined by a set of NgModules. An app always has at least a root module that enables bootstrapping, and typically has many more feature modules.",
+      "likes": 2,
+      "id": 4
+    }
+  ]
+}

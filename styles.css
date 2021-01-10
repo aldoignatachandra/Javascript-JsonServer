@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* base styles */
+body {
+  background: #eee;
+  font-family: "Roboto";
+  color: #444;
+  max-width: 960px;
+  margin: 100px auto;
+  padding: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav h1 {
+  margin: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  background: #36cca2;
+  padding: 10px;
+  border-radius: 10px;
+}
+form {
+  max-width: 500px;
+}
+input,
+textarea {
+  display: block;
+  margin: 16px 0;
+  padding: 6px 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-family: "Roboto";
+  border-radius: 10px;
+}
+textarea {
+  min-height: 200px;
+}
+
+/* post list */
+.post {
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.post h2 {
+  margin: 0;
+}
+.post p {
+  margin-top: 0;
+}
+.post a {
+  color: #36cca2;
+}
+.fa {
+  margin-left: 15px;
+  border-color: white;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+.fa:hover {
+  color: darkblue;
+}
+
+/* for button add */
+.addButton {
+  color: white;
+  text-decoration: none;
+  background: #36cca2;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-color: whitesmoke;
+}
+
+/* for button delete */
+.delete {
+  color: white;
+  text-decoration: none;
+  background: red;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-color: whitesmoke;
+}
+
+/* for details */
+.details h1 {
+  text-decoration: underline;
+}
+.details p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* for search and button sort */
+.containerSortButton {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+.sortButtonPopular {
+  background-color: green;
+  color: white;
+  padding: 10px 34px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-color: whitesmoke;
+  font-weight: bold;
+}
+.sortButtonUnpopular {
+  background-color: blue;
+  color: white;
+  padding: 10px 34px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-color: whitesmoke;
+  font-weight: bold;
+}
+.sortButtonNewest {
+  background-color: brown;
+  color: white;
+  padding: 10px 34px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-color: whitesmoke;
+  font-weight: bold;
+}
+.sortButtonOldest {
+  background-color: black;
+  color: white;
+  padding: 10px 34px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-color: whitesmoke;
+  font-weight: bold;
+}
